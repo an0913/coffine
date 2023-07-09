@@ -1,0 +1,143 @@
+@import url('./common.css');
+
+main .subvisual{
+height: 370px;
+width: 100%;
+background: url("../images/sub_top_visual_menu.jpg")no-repeat center top ;
+}
+
+main .subvisual h2{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 470px;
+}
+main .container{
+    width: 1150px;
+    margin: auto;
+    padding: 60px 0 120px;
+    overflow: hidden;
+}
+main .container .lnb{
+    width: 100px;
+    float: left;
+    
+}
+/* main .container .lnb .menu{
+
+} */
+main .container .lnb .menu li{
+margin-bottom: 10px;
+}
+main .container .lnb .menu li:last-child{
+    margin-bottom: 0;
+}
+
+main .container .lnb .menu li a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #f7f7f7;
+    color: #716b5d;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+main .container .lnb .menu li:nth-child(2) a,main .container .lnb .menu li:nth-child(4) a{
+    line-height: 18px;
+    height: auto;
+    padding: 32px 0;
+}
+main .container .lnb .menu li.on a{
+    background: #000;
+    color: #fff;
+}
+main .container .contents{
+    width: 848px;
+    float: right;
+    
+    /* border: 1px solid black; */
+}
+main .container .contents .tit{
+    border-bottom: 2px solid #4b4b4b;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    
+}
+main .container .contents .tit h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+/* main .container .contents .tit .location{
+    
+} */
+main .container .contents .tit .location span{
+    font-weight: bold;
+    color: #000;
+}
+main .container .contents .new_menu{
+    display: flex;
+    margin: 50px 0 35px;
+}
+main .container .contents .new_menu li{
+    width: 50%;
+    
+}
+main .container .contents .new_menu li a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #efefef;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+}
+main .container .contents .new_menu li.on a{
+    background: #692d91;
+    color: #fff;
+}
+main .container .contents .select_product{
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+main .container .contents .select_product p{
+    /* line-height: 40px; */
+    font-weight: 700;
+}
+/* main .container .contents .select_product .select_form{
+
+} */
+main .container .contents .select_product .select_form fieldset{
+    border: none;
+}
+main .container .contents .select_product .select_form select{
+    width: 274px;
+    height: 35px;
+    border: 1px solid #e3e3e3;
+    line-height: 35px;
+    text-indent: 10px;
+    outline: none;
+}
+main .container .contents .select_product .btn_move{
+    width: 50px;
+    height: 35px;
+    background: #323232;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+}
+.img_product{
+margin-top: 35px;
+}
+/* .img_product img{
+    
+} */
+.img_product .tit2{
+    background: #f7f7f7;
+    padding: 24px;
+}
